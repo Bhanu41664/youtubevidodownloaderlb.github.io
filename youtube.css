@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+    height: 100vh;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: #2BC0BE  ;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+header h1{
+    color:white;
+   
+}
+ul li{
+    list-style-type:none;
+}
+ul li a{
+    text-decoration: none;
+    font-size:22px;
+    font-weight: bold;
+    color:white;
+
+}
+section{
+    width: 800px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #666;
+    
+
+}
+section h1{
+    color: #0E6655;
+    padding: 30px;
+    margin-bottom: 30px;
+    font-size: 35px;
+
+}
+section .link-container,.format-container,.button-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 500px;
+}
+section .link-container, .format-container label{
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+}
+label{
+    margin: 5px;
+}
+
+.main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+section .link-container input, .format-container select{
+    height: 40px;
+    outline: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    border: 2px solid #666;
+    font-size: 14px;
+    border: none;
+    box-shadow: 1px 1px 3px #2BA7C0;
+}
+input:hover{
+    background-color:#f0f0f0;
+
+}
+select:hover{
+    background-color:#f0f0f0;
+
+}
+section .button-container button{
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight:bolder;
+    border: none;
+    color: #fff;
+    background-color:#2BC0BE  ;
+    cursor: pointer;
+}
+section .button-container button:hover{
+    color:white;
+    background:#2BA7C0  ;
+}
+section{
+    border: none;
+    padding-bottom: 60px;
+    
+}
+section h1{
+    text-align: center;
+    text-transform:capitalize;
+    text-shadow: 0 1px 3px black;
+}
+section{
+    box-shadow: 0px 2px 8px black;
+    background-color: white;
+}
+@media only screen and (max-width:850px){
+    section{
+        width: 350px;
+        height: 450px;
+    }
+    .tittle{
+        float: left;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    section .link-container,.format-container,.button-container{
+        width: 300px;
+
+
+
+    }
+
+}
+.main{
+    background-image: url('background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section h1{
+    color: #2BC0BE ;
+    text-shadow: none;
+    
+
+}
+section{
+    box-shadow: none;
+}
