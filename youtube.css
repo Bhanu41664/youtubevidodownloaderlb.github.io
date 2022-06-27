@@ -33,7 +33,7 @@ ul li a{
 section{
     width: 800px;
     height: 400px;
-    margin-top: 300px;
+    margin-top: 200px;
     margin-left: 10px;
     /* position: absolute;
     top: 50%;
@@ -142,8 +142,11 @@ section{
 }
 .main{
     background-image: url('background2.jpg');
+    background-position: center;
+    background-size:cover ;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
 }
 section h1{
     color: #2BC0BE ;
